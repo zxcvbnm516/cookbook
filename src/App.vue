@@ -2,7 +2,7 @@
 	
   <div id="app">
     <router-view></router-view>
-    	<footer >
+    	<footer>
 		  	<ul>
 		  		<li><div></div><a href="/">吃什么</a></li>
 		  		<li><div></div><a href="#/find">发现</a></li>
@@ -20,10 +20,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+$width:100%;
 html,body{
-	font-size: 20px;
-	width: 100%;
+	font-size: 10px;
+	width: $width;
 }
 *{
 	margin: 0;
@@ -36,11 +37,11 @@ a{
 	text-decoration: none;
 }
 footer {
-	width: 100%;
-  position: fixed;
-  bottom:0;
-  height:6rem;
-  background: #efece7;
+	  width:$width;
+	  position: fixed;
+	  bottom:0;
+	  height:5rem;
+	  background: #efece7;
 }
 footer ul{
 		width: 100%;
@@ -52,13 +53,13 @@ footer li{
 		text-align: center;
 }
 footer li a{
-		font-size: 1.7rem;
+		font-size: 1.5rem;
 		color: #000;
 }
 
 footer div{
 			width: 45%;
-			height: 3.5rem;
+			height: 3rem;
 			margin: auto;
 			background: url(assets/foot.png) no-repeat;
 			background-size: 460% 220%;
