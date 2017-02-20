@@ -122,6 +122,12 @@ header{
 	font-size: 16px;
 	img{
 		margin-top: 1rem;
+		float: left;
+		vertical-align: center;
+	}
+	p{
+		float: left;
+		line-height: 4rem;
 	}
 }
 
