@@ -60,6 +60,34 @@
 				</li></a>
 			</ul>
 		</div>
+<<<<<<< HEAD
+=======
+		<!--分类-->
+		<div class="classify">
+			<ul>
+				<a href=""><li>
+					<img src="../assets/1_11.png" alt="" />
+					<p>看视频</p>
+				</li></a>
+				<a href=""><li>
+					<img src="../assets/1_13.png" alt="" />
+					<p>厨房宝典</p>
+				</li></a>
+				<a href=""><li>
+					<img src="../assets/1_15.png" alt="" />
+					<p>热门活动</p>
+				</li></a>
+				<a href=""><li>
+					<img src="../assets/1_17.png" alt="" />
+					<p>排行榜</p>
+				</li></a>
+				<a href=""><li>
+					<img src="../assets/1_19.png" alt="" />
+					<p>菜谱分类</p>
+				</li></a>
+			</ul>
+		</div>
+>>>>>>> 20119e7291380e7e9f22210e76c0a6f6ccdddc69
 		
 		<!--图片-->
 		<div class="tu">
@@ -139,7 +167,13 @@ header{
 		margin-left: 30%;
 	}
 }
+<<<<<<< HEAD
 .swiper-container{
+=======
+
+
+.banner{
+>>>>>>> 20119e7291380e7e9f22210e76c0a6f6ccdddc69
 	overflow: hidden;
 	margin-top: 4rem;
 	img{
@@ -167,12 +201,20 @@ header{
 .tu{
 	overflow: hidden;
 	background: #f3efee;
+<<<<<<< HEAD
 	padding: 0.5rem 0; 
+=======
+	padding: 0.5rem;
+>>>>>>> 20119e7291380e7e9f22210e76c0a6f6ccdddc69
 	width: $width;
 	li{
 		width: 48%;
 		float: left;
+<<<<<<< HEAD
 		margin-left: 0.5rem;
+=======
+		margin-left: 0.4rem;
+>>>>>>> 20119e7291380e7e9f22210e76c0a6f6ccdddc69
 		padding-bottom: 0.3rem;
 		img{
 			width: 96%;
