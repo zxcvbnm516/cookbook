@@ -3,7 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+require('./../static/swiper-3.4.0.min.css')
+import Swiper from './../static/swiper-3.4.0.min.js'
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
